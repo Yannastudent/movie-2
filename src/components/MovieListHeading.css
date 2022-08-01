@@ -13,11 +13,14 @@ img {
     .title {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
-      width: 50%;
-      margin: auto;
+      justify-content:space-evenly;
+      width: 100%;
+      
     }
+    .container {
+        display: inline;
+}
     .movie-rating {
-      width: 45%;
+      width: 100%;
     }
   }

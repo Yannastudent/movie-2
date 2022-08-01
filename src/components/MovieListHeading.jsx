@@ -3,7 +3,7 @@ import React from "react";
 import './MovieListHeading.css';
 
 
-const MovieListHeading = (props) => {
+const MovieListHeading = (props, cinema) => {
     return (
         <div className="container">
             <div className="box">
@@ -12,7 +12,7 @@ const MovieListHeading = (props) => {
             <div className="title">
                 <div id="movie1" className="movie-rating">
                     <h2>Addams Family</h2>
-                    <p><img src={process.env.PUBLIC_URL + "images/Addams-Family.jpg"} alt="Movie 1" /></p>
+                    <p><img src={cinema.img} alt="Movie 1" /></p>
                     <p>Let user rate movie here</p>
                     <p>Calculate current rating here ie 4.25 from 4 votes</p>
                 </div>
@@ -54,6 +54,23 @@ const MovieListHeading = (props) => {
             </div>
         </div>
     );
+
+    
 };
 
 export default MovieListHeading;
+//const MovieList = (props) => 
+   /* return (
+        <>
+        {/*map*
+            {props.movies.map((movie, index)=> (
+         <div className="image-container">
+            <img src={movie.Poster} alt ="movie"></img>
+            <div className="">
+    
+            </div>
+        </div>
+      
+    
+   
+*/

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-
+// bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+// data
 import data from "./assets/data/data.json";
 
 import MovieListHeading from './components/MovieListHeading';
@@ -14,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <div>
-     <MovieListHeading heading ="Movies"/>
+     <MovieListHeading cinema = {data} heading ="Movies"/>
      </div>
     </div>
    
