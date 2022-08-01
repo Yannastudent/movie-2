@@ -4,9 +4,10 @@ img {
 
 .App {
   text-align: center;
+  background-color:lightblue;
 }
 .movie-rating img {
-  width: 50%;
+  width: 60%;
 }
 
 @media only screen and (min-width: 650px) {
@@ -14,8 +15,8 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    background-color:lightblue;
   }
   .movie-rating {
     width: 45%;

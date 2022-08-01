@@ -1,0 +1,23 @@
+img {
+    max-width: 100%;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  .movie-rating img {
+    width: 80%;
+  }
+  
+  @media only screen and (min-width: 650px) {
+    .title {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 50%;
+      margin: auto;
+    }
+    .movie-rating {
+      width: 45%;
+    }
+  }
