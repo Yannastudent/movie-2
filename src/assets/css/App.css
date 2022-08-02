@@ -1,24 +1,32 @@
 img {
-  max-width: 100%;
+  max-width: 50%;
+  margin: auto;
 }
 
 .App {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+
   text-align: center;
-  background-color:lightblue;
+  background-color:goldenrod;
+
 }
-.movie-rating img {
-  width: 60%;
-}
+
 
 @media only screen and (min-width: 650px) {
   .App {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-around;
     width: 100%;
     background-color:lightblue;
+    margin: 0 auto;
+  
   }
-  .movie-rating {
-    width: 45%;
+  img {
+    width: 33%;
+    border-radius: 15px;
   }
+  
 }

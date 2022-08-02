@@ -1,26 +1,19 @@
-img {
-    max-width: 100%;
-  }
+
+
+.title{
+  display: inline;
+  justify-content:flex-end;
+  width: 100%;
   
-  .title {
-    text-align: center;
-  }
-  .movie-rating img {
-    width: 80%;
-  }
-  
-  @media only screen and (min-width: 650px) {
-    .title {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content:space-evenly;
-      width: 100%;
-      
-    }
-    .container {
-        display: inline;
 }
-    .movie-rating {
-      width: 100%;
-    }
+
+@media only screen and (min-width: 650px) {
+  .title{
+  background:burlywood;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+    
   }
+ 
+}
