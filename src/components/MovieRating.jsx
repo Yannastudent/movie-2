@@ -13,8 +13,9 @@ const MovieRating = ({ eachEngmovies }) => {
       
         
         <div className='box'>
-            <img src={eachEngmovies.img} />
             <h2>{eachEngmovies.name}</h2>
+            <img src={eachEngmovies.img} />
+            
             <RatingForm/>
             
                   
