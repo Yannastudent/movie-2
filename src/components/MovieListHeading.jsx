@@ -4,7 +4,7 @@ import MovieListing from "./MovieRating";
 
 import './MovieListHeading.css';
 
-
+//looping data
 
 const MovieListHeading = ({ cinema }) => {
 
@@ -15,18 +15,18 @@ const MovieListHeading = ({ cinema }) => {
                 return (
 
                     <MovieListing eachEngmovies={eachEngmovies} />
-                    
-                    
+
+
                 )
 
             })}
         </div>
-        
+
 
     );
-    
-     
-      
+
+
+
 
 };
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-//Rate button
+//leave comment button
 
 const RatingForm = ({ addTask }) => {
 

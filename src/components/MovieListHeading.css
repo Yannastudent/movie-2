@@ -1,21 +1,20 @@
-
-
-.title{
+.title {
   display: flex;
-  justify-content:flex-end;
+  justify-content: flex-end;
   width: 100%;
   margin-bottom: 20px;
-  
+
 }
 
 @media only screen and (min-width: 650px) {
-  .title{
-  background:rgb(85, 204, 204);
-  width: fit-content;
-  display: flex;
-  justify-content: center;
-    
+  .title {
+    background: rgb(85, 204, 204);
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+
   }
+
   .subtitle {
     padding: 40px;
   }
