@@ -18,13 +18,11 @@ const MovieRating = ({ eachEngmovies }) => {
         <div className='box'>
             <h2>{eachEngmovies.name}</h2>
             <img src={eachEngmovies.img} />
+            <div className='subtitle'>
             <RatingForm/>
-            <ResetRating/>
-            
-            
-                  
-         
-         </div> 
+            <ResetRating placeholderRating={3} />
+            </div>
+        </div> 
          
     );
     

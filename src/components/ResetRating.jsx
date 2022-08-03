@@ -23,6 +23,6 @@ class ResetRating extends React.Component {
     }
   }
   
-  <ResetRating placeholderRating={3} />
+  
   
   export default ResetRating;

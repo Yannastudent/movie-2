@@ -2,15 +2,19 @@ img {
   max-width: 50%;
   margin: auto;
   border-radius: 10px;
+  padding: 20px;
 }
+.box {
+  padding-top: 40px;
 
+}
 .App {
   display: flex;
   justify-content: space-around;
   width: 100%;
 
   text-align: center;
-  background-color:goldenrod;
+  background-color:rgb(49, 179, 138);
 
 }
 
@@ -28,6 +32,13 @@ img {
   img {
     width: 33%;
     border-radius: 15px;
+    
+   
+  }
+
+  .box {
+    padding-top: 40px;
+
   }
   h1 {
    text-align: center;
