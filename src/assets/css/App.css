@@ -1,6 +1,7 @@
 img {
   max-width: 50%;
   margin: auto;
+  border-radius: 10px;
 }
 
 .App {
@@ -28,5 +29,7 @@ img {
     width: 33%;
     border-radius: 15px;
   }
-  
+  h1 {
+   text-align: center;
+  }
 }

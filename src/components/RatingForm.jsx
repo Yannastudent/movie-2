@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 
+//Rate button
 
 const RatingForm = ({ addTask }) => {
 
-    const [userInput, setUserInput] = useState('Comment');
+    const [userInput, setUserInput] = useState('Rate');
 
     const handleChange = (e) => {
         setUserInput(e.currentTarget.value)

@@ -15,7 +15,7 @@ const Todo = ({ todoItem, handleToggle }) => {
         <div id={todoItem.id} className={todoItem.complete ? "xxx strike" : "xxx"} onclick={handleClick}>
             {todoItem.task}
         </div>
-    );
+    )
 };
 
 export default Todo;

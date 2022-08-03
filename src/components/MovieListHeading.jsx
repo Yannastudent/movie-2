@@ -1,7 +1,9 @@
 
 import React from "react";
 import MovieListing from "./MovieRating";
+
 import './MovieListHeading.css';
+
 
 
 const MovieListHeading = ({ cinema }) => {
@@ -14,6 +16,7 @@ const MovieListHeading = ({ cinema }) => {
 
                     <MovieListing eachEngmovies={eachEngmovies} />
                     
+                    
                 )
 
             })}
@@ -21,6 +24,9 @@ const MovieListHeading = ({ cinema }) => {
         
 
     );
+    
+     
+      
 
 };
 
