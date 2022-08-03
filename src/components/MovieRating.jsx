@@ -1,6 +1,8 @@
 import React from 'react';
 import RatingForm from './RatingForm';
-import Todo from './Todo';
+import ResetRating from './ResetRating';
+
+
 
 
 
@@ -9,14 +11,16 @@ import Todo from './Todo';
 
 const MovieRating = ({ eachEngmovies }) => {
     console.log('MovieRating', eachEngmovies);
+    
     return (
       
         
         <div className='box'>
             <h2>{eachEngmovies.name}</h2>
             <img src={eachEngmovies.img} />
-            
             <RatingForm/>
+            <ResetRating/>
+            
             
                   
          

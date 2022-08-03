@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 const RatingForm = ({ addTask }) => {
 
-    const [userInput, setUserInput] = useState('Rate');
+    const [userInput, setUserInput] = useState('Leave your comment');
 
     const handleChange = (e) => {
         setUserInput(e.currentTarget.value)
@@ -17,7 +17,7 @@ const RatingForm = ({ addTask }) => {
     }
     return (
         <form onSubmit={handleSubmit}>
-            <input value={userInput} type="text" onChange={handleChange} placeholder="task" />
+            <input value={userInput} type="text" onChange={handleChange} placeholder="feed back" />
             <button>Submit</button>
         </form>
     );
