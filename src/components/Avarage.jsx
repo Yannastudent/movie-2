@@ -7,17 +7,17 @@ const sum =
 rating.reduce ((partialSum,a)) =>
 partialSum +a,0 );
 const avarage +sum/ rating.length;*/}
-const Avarage = () => {
-    const [count, setCount] = useState(0);
 
-    const increment = () => {
-        setCount((prevState) => prevState = prevState + 1)
-        console.log(count);
-    }
+const Avarage = ({ rating }) => {
+
+    const average = rating.reduce((a, b) => a + b, 0) / rating.length;
+    console.log(average);
+
+
     return (
         <>
-            <button onClick={increment}>+</button>
-            <div> Result: {count} </div>
+
+            <div> Rating: {average} </div>
         </>
     );
 }

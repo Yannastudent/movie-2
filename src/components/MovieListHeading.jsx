@@ -11,10 +11,10 @@ const MovieListHeading = ({ cinema }) => {
     return (
 
         <div className="container">
-            {cinema.map(eachEngmovies => {
+            {cinema.map(movie => {
                 return (
 
-                    <MovieListing eachEngmovies={eachEngmovies} />
+                    <MovieListing movie={movie} />
 
 
                 )

@@ -7,17 +7,17 @@ import Avarage from './Avarage';
 //Movielist from data,buttons, stars
 
 
-const MovieRating = ({ eachEngmovies }) => {
-    console.log('MovieRating', eachEngmovies);
+const MovieRating = ({ movie }) => {
+    console.log('MovieRating', movie);
 
     return (
 
 
         <div className='box'>
-            <h2>{eachEngmovies.name}</h2>
-            <img src={eachEngmovies.img} />
+            <h2>{movie.name}</h2>
+            <img src={movie.img} />
             <div>
-                <Avarage />
+                <Avarage rating={movie.rating} />
             </div>
             <div className='subtitle'>
                 <RatingForm />

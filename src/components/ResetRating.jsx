@@ -2,7 +2,7 @@ import React from "react";
 import { Component } from "react";
 import { Rating } from "react-simple-star-rating";
 
-//star rating
+//stars rating
 
 class ResetRating extends React.Component {
   constructor(props) {
@@ -20,7 +20,7 @@ class ResetRating extends React.Component {
     return (
       <div>
         <Rating {...this.props} initialRating={this.state.value} />
-        <button onClick={this.handleClick}>Reset</button>
+
       </div>
     );
   }
