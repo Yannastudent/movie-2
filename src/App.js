@@ -41,7 +41,7 @@ function App() {
         <div className='title'>
           <MovieListHeading cinema={data} addTask={addTask} />
         </div>
-     </div>
+      </div>
     </div>
   );
 
